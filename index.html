@@ -6,24 +6,503 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="">
-    <style>
-        .box{
-            width: 500px;
-            height: 500px;
-            min-width: 6.5rem;
-            min-height: 1.55rem;
-            background-color: aqua;
-            
-        }
-        .wz{
-            font-size: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/index.css">
+    
+    <script src="./js/echarts.js"></script>
 </head>
 
 <body>
-  <div class="box"><div class="wz">hhh</div></div>
+  <div class="kuangj">
+      <div class="k1">
+        <!-- 概览 -->
+        <div class="gg gaodu">
+        
+            <div class="inner">
+                <ul>
+                    <li>
+                        <h4>2190</h4>
+                        <span>
+                            <i class="yuan" style="background-color: blue;"></i>
+                            设备总数
+                        </span>
+                    </li>
+
+                    <li>
+                        <h4>190</h4>
+                        <span>
+                            <i class="yuan" style="background-color: rgb(82, 11, 104);"></i>
+                            极度新增
+                        </span>
+                    </li>
+
+
+                    <li>
+                        <h4>3001</h4>
+                        <span>
+                            <i class="yuan" style="background-color: rgb(13, 63, 28);"></i>
+                            设备运营
+                        </span>
+                    </li>
+
+
+
+                    <li>
+                        <h4>108</h4>
+                        <span>
+                            <i class="yuan" style="background-color: rgb(158, 23, 23);"></i>
+                            设备异常
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 监控 -->
+        <div class="jiank gg">
+            <div class="inner">
+                <div class="tob">
+                    <a href="#" class="qieh top">
+                        故障设备监控
+                    </a>
+                    <span class="line"></span>
+                    <a href="#" class="top">异常设备监控</a>
+                </div>
+
+                <div class="content  showtop" style="display: block;">
+                  <div class="top1 row">
+                    <span class="c">故障时间</span>
+                    <span class="c">设备地址</span>
+                    <span class="c">故障代码</span>
+                  </div>
+
+                  <div class="dh">
+                      <div class="dh1">
+                          <div class="row">
+                           <span class="c">20220701</span>
+                           <span class="c">郑州市金水区CBD福国大厦</span>
+                           <span class="c">1000001</span>  
+                          </div>
+
+                          <div class="row">
+                            <span class="c">20220701</span>
+                            <span class="c">郑州市金水区CBD福国大厦</span>
+                            <span class="c">1000001</span>  
+                           </div>
+
+
+                           <div class="row">
+                            <span class="c">20220701</span>
+                            <span class="c">郑州市金水区CBD福国大厦</span>
+                            <span class="c">1000001</span>  
+                           </div>
+
+
+                           <div class="row">
+                            <span class="c">20220701</span>
+                            <span class="c">郑州市金水区CBD福国大厦</span>
+                            <span class="c">1000001</span>  
+                           </div>
+
+
+                           <div class="row">
+                            <span class="c">20220701</span>
+                            <span class="c">郑州市金水区CBD福国大厦</span>
+                            <span class="c">1000001</span>  
+                           </div>
+
+
+                           <div class="row">
+                            <span class="c">20220701</span>
+                            <span class="c">郑州市金水区CBD福国大厦</span>
+                            <span class="c">1000001</span>  
+                           </div>
+
+
+                           <div class="row">
+                            <span class="c">20220701</span>
+                            <span class="c">郑州市金水区CBD福国大厦</span>
+                            <span class="c">1000001</span>  
+                           </div>
+
+
+                           <div class="row">
+                            <span class="c">20220701</span>
+                            <span class="c">郑州市金水区CBD福国大厦</span>
+                            <span class="c">1000001</span>  
+                           </div>
+
+
+                           <div class="row">
+                            <span class="c">20220701</span>
+                            <span class="c">郑州市金水区CBD福国大厦</span>
+                            <span class="c">1000001</span>  
+                           </div>
+
+
+                           <div class="row">
+                            <span class="c">20220701</span>
+                            <span class="c">郑州市金水区CBD福国大厦</span>
+                            <span class="c">1000001</span>  
+                           </div>
+
+
+                           <div class="row">
+                            <span class="c">20220701</span>
+                            <span class="c">郑州市金水区CBD福国大厦</span>
+                            <span class="c">1000001</span>  
+                           </div>
+
+
+                           <div class="row">
+                            <span class="c">20220701</span>
+                            <span class="c">郑州市金水区CBD福国大厦</span>
+                            <span class="c">1000001</span>  
+                           </div>
+                      </div>
+                  </div>
+                </div>
+
+
+
+                <div class="content  showtop" style="display: none;">
+                    <div class="top1 row">
+                      <span class="c">异常时间</span>
+                      <span class="c">异常设备地址</span>
+                      <span class="c">异常代码</span>
+                    </div>
+  
+                    <div class="dh">
+                        <div class="dh1">
+                            <div class="row">
+                             <span class="c">YC20220701</span>
+                             <span class="c">郑州市金水区CBD福国大厦</span>
+                             <span class="c">1000001</span>  
+                            </div>
+  
+                            <div class="row">
+                                <span class="c">YC20220701</span>
+                                <span class="c">郑州市金水区CBD福国大厦</span>
+                                <span class="c">1000001</span>  
+                               </div>
+
+                               <div class="row">
+                                <span class="c">YC20220701</span>
+                                <span class="c">郑州市金水区CBD福国大厦</span>
+                                <span class="c">1000001</span>  
+                               </div>
+
+
+                               <div class="row">
+                                <span class="c">YC20220701</span>
+                                <span class="c">郑州市金水区CBD福国大厦</span>
+                                <span class="c">1000001</span>  
+                               </div>
+
+
+                               <div class="row">
+                                <span class="c">YC20220701</span>
+                                <span class="c">郑州市金水区CBD福国大厦</span>
+                                <span class="c">1000001</span>  
+                               </div>
+
+
+                               <div class="row">
+                                <span class="c">YC20220701</span>
+                                <span class="c">郑州市金水区CBD福国大厦</span>
+                                <span class="c">1000001</span>  
+                               </div>
+
+
+                               <div class="row">
+                                <span class="c">YC20220701</span>
+                                <span class="c">郑州市金水区CBD福国大厦</span>
+                                <span class="c">1000001</span>  
+                               </div>
+
+
+                               <div class="row">
+                                <span class="c">YC20220701</span>
+                                <span class="c">郑州市金水区CBD福国大厦</span>
+                                <span class="c">1000001</span>  
+                               </div>
+
+
+                               <div class="row">
+                                <span class="c">YC20220701</span>
+                                <span class="c">郑州市金水区CBD福国大厦</span>
+                                <span class="c">1000001</span>  
+                               </div>
+
+
+                               <div class="row">
+                                <span class="c">YC20220701</span>
+                                <span class="c">郑州市金水区CBD福国大厦</span>
+                                <span class="c">1000001</span>  
+                               </div>
+
+
+                               <div class="row">
+                                <span class="c">YC20220701</span>
+                                <span class="c">郑州市金水区CBD福国大厦</span>
+                                <span class="c">1000001</span>  
+                               </div>
+
+
+                               <div class="row">
+                                <span class="c">YC20220701</span>
+                                <span class="c">郑州市金水区CBD福国大厦</span>
+                                <span class="c">1000001</span>  
+                               </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <!-- 点位 -->
+
+        <div class="dw gg">
+            <div class="inner">
+                <h3>点位分布统计</h3>
+                <div class="zht">
+                    <div class="pie">
+
+                    </div>
+
+                    <div class="data">
+                        <div class="item">
+                            <h4>320,11</h4>
+                            <span>
+                                <i class="yuan"style="background-color: #ed3f35" ></i>
+                                点位总数
+                            </span>
+                        </div>
+
+                        <div class="item">
+                            <h4>418</h4>
+                            <span>
+                                <i class="yuan"style="background-color: #e214e2" ></i>
+                                本月信增
+                            </span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+      </div>
+      <div class="k1">
+        <div class="dit">
+            <h3>
+                <span class="iconCube"></span>
+          设备数据统计
+            </h3>
+
+            <div class="chart">
+                <!--地图-->
+                <div class=".ditur"></div>
+              </div>
+        </div>
+
+        <div class="yh gg">
+            <div class="inner">
+              <h3>全国用户总量统计</h3>
+              <div class="chart">
+                <div class="b"></div>
+                <div class="data">
+                  <div class="item">
+                    <h4>120,899</h4>
+                    <span>
+                      <i class="yuan" style="background-color: #ed3f35"></i>
+                      用户总量
+                    </span>
+                  </div>
+                  <div class="item">
+                    <h4>248</h4>
+                    <span>
+                      <i class="yuan" style="background-color: #eacf19"></i>
+                      本月新增
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="k1">
+        <div class="order gg">
+            <div class="inner">
+              <div class="filter">
+                <a href="javascript:;" class="abc">365天</a>
+                <a href="javascript:;">90天</a>
+                <a href="javascript:;">30天</a>
+                <a href="javascript:;">24小时</a>
+              </div>
+              <div class="data orderData">
+                <div class="item">
+                  <h4>20,301,987</h4>
+                  <span>
+                    <i class="yuan" style="background-color: #ed3f35"></i>
+                    订单量
+                  </span>
+                </div>
+                <div class="item">
+                  <h4>99834</h4>
+                  <span>
+                    <i class="yuan" style="background-color: #eacf19"></i>
+                    销售额(万元)
+                  </span>
+                </div>
+              </div>
+              <div class="data orderData orderDataHidden">
+                <div class="item">
+                  <h4>5,005,969</h4>
+                  <span>
+                    <i class="yuan" style="background-color: #ed3f35"></i>
+                    订单量
+                  </span>
+                </div>
+                <div class="item">
+                  <h4>24616</h4>
+                  <span>
+                    <i class="yuan" style="background-color: #eacf19"></i>
+                    销售额(万元)
+                  </span>
+                </div>
+              </div>
+              <div class="data orderData orderDataHidden">
+                <div class="item">
+                  <h4>1,668,656</h4>
+                  <span>
+                    <i class="yuan" style="background-color: #ed3f35"></i>
+                    订单量
+                  </span>
+                </div>
+                <div class="item">
+                  <h4>8205</h4>
+                  <span>
+                    <i class="yuan" style="background-color: #eacf19"></i>
+                    销售额(万元)
+                  </span>
+                </div>
+              </div>
+              <div class="data orderData orderDataHidden">
+                <div class="item">
+                  <h4>556,218</h4>
+                  <span>
+                    <i class="yuan" style="background-color: #ed3f35"></i>
+                    订单量
+                  </span>
+                </div>
+                <div class="item">
+                  <h4>27.563</h4>
+                  <span>
+                    <i class="yuan" style="background-color: #eacf19"></i>
+                    销售额(万元)
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+           
+       <div class="xxr gg">
+        <div class="inner">
+            <div class="tion">
+                <h3>销售额统计</h3>
+                <a href="javascript:;"  data-time="year" class="time active" >年</a>
+                <a href="javascript:;" data-time="quarter" class="time">季</a>
+                <a href="javascript:;" data-time="month" class="time" >月</a>
+                <a href="javascript:;"data-time="week" class="time" >周</a>
+            </div>
+
+            <div class="ch">
+                <div class="label">单位:万</div>
+                <div class="sline"></div> 
+            </div>
+        </div>
+       </div>
+
+
+     
+    <div class="qdao"> 
+           <div class="qd gg">
+            <div class="inner">
+                <h3>渠道分布</h3>
+                <div class="data">
+                  <div class="lda"></div>
+                </div> 
+            </div>
+           </div>
+
+
+           <div class="xsjd gg">
+            <div class="inner">
+                <h3>一季度销售进度</h3>
+                <div class="ch">
+                   <div class="box">
+                       <div class="gua">
+
+                       </div>
+                       <div class="la">75 <small> %</small></div>
+                   </div> 
+                   <div class="data">
+                    <div class="item">
+                      <h4>1,321</h4>
+                      <span>
+                        <i class="yuan" style="background-color: #6acca3"></i>
+                        销售额(万元)
+                      </span>
+                    </div>
+
+                    <div class="item">
+                        <h4>150%</h4>
+                        <span>
+                          <i class="yuan" style="background-color: #ed3f35"></i>
+                          同比增长
+                        </span>
+                      </div>
+                </div>
+            </div>
+           </div>
+       </div>
+      </div> 
+
+
+      <div class="dib gg">
+        <div class="inner">
+          <h3>完成进度统计</h3>
+          <div class="chart">
+            <!-- 进度水球图 -->
+            <div class="water"></div>
+            <div class="data">
+              <div class="item">
+                <h4>800,0万</h4>
+                <span>
+                  <i class="yuan" style="background-color: #ed3f35"></i>
+                  计划收入
+                </span>
+              </div>
+              <div class="item">
+                <h4>544,0万</h4>
+                <span>
+                  <i class="yuan" style="background-color: #eacf19"></i>
+                  完成收入
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+   
+ 
+ 
+    </div>
   
 </body>
 
@@ -42,5 +521,14 @@
 window.onload  = setRem;
 window.onresize = setRem; 
 </script> -->
-<script src="./js/rm.js"></script>
+<!-- <script src="./js/rm.js"></script> -->
+<script src="./js/china.js"></script>
+<script src="./js/setRem.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/echarts-liquidfill.min.js"></script>
+<script src="./js/sdi.js"></script>
+<script src="./js/dit.js"></script>
+<script src="./js/qd.js"></script>
+
+
 
